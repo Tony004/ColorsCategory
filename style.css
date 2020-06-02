@@ -1,0 +1,78 @@
+body{
+    margin-left: 0px;
+}
+body > div{
+    font-family: Arial;
+}
+
+/* Главная категория */
+#main_cat{
+    padding: 5px 10px;
+    background-color: #33cc33;
+    font-weight: bold;
+    border: 2px solid #009933;
+}
+#main_cat:hover{
+    background-color: #5bd75b;
+}
+
+/* Подкатегории */
+.colors{
+    margin-left: 20px;
+    padding: 5px 10px;
+    background-color: #ff99ff;
+    border: 2px solid #ff66ff;
+    color: black;
+}
+.colors:hover{
+    background-color: #ffccff;
+}
+
+#sub_cat{
+    margin-top: 8px;
+    padding-top: 5px;
+}
+
+.sub_cat_div{
+    padding: 5px 0px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 5px 5px 5px 20px;
+}
+
+/* Цвета */
+li{
+    font-style: italic;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #ffff66;
+    margin: 5px 0px;
+    border: 2px solid #ff3300;
+}
+li:hover{
+    background-color: #ffffcc;
+}
+
+/* кнопки */
+button{
+    margin: 0px;
+    padding: 0px;
+    width: 30px;
+    height: 25px;
+    background-color: #00ccff;
+    font-weight: 700;
+    border: 2px solid #3399ff;
+}
+button:hover{
+    background-color: #66ffff;
+}
+
+/* Подсказки */
+p{
+    font-family: Arial;
+    font-style: italic;
+    font-weight: bold;
+    color: #333300;
+}

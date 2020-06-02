@@ -1,0 +1,22 @@
+header{
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+h1{
+    font-family: Arial;
+    font-size: 40px;
+}
+input{
+    width: 150px;
+}
+#btn{
+    margin-top: 10px;
+    padding: 5px 0px;
+    border: 2px solid grey;
+    color: grey;
+}
+#btn:hover{
+    border: 2px solid blue;
+    color: blue;
+}
